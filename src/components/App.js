@@ -9,7 +9,7 @@ class App extends Component {
       { name: "Ananya Nath", relation: "sister" },
       { name: "sadhana Nath", relation: "mother" },
       { name: "Shanti Nath", relation: "grand mother" },
-      { name: "Debrani Mukherjee", relation: "father" }
+      { name: "Debrani Mukherjee", relation: "cousin" }
     ];
   }
   render() {
