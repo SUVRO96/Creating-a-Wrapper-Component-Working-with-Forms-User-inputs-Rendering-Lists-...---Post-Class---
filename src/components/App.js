@@ -16,8 +16,7 @@ class App extends Component {
     return (
       <div id="main">
         <ol key={"relativeList"}>
-          {this.relatives &&
-            this.relatives.map((item, index) => (
+          {this.relatives.map((item, index) => (
               <li>{item.name}</li>
             ))}
         </ol>
