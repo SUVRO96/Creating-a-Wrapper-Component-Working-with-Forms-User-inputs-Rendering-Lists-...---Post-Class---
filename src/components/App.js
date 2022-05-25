@@ -5,11 +5,11 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.relatives = [
-      { name: "Arijit Nath", relation: "father" },
-      { name: "Ananya Nath", relation: "sister" },
-      { name: "sadhana Nath", relation: "mother" },
-      { name: "Shanti Nath", relation: "grand mother" },
-      { name: "Debrani Mukherjee", relation: "cousin" }
+      { name: "Arijit Nath" },
+      { name: "Ananya Nath"},
+      { name: "sadhana Nath"},
+      { name: "Shanti Nath"},
+      { name: "Debrani Mukherjee"}
     ];
   }
   render() {
@@ -18,7 +18,7 @@ class App extends Component {
         <ol key={"relativeList"}>
           {this.relatives &&
             this.relatives.map((item, index) => (
-              <li key={`relativeListItem${index + 1}`}>{item.name}</li>
+              <li>{item.name}</li>
             ))}
         </ol>
       </div>
